@@ -9,6 +9,8 @@ import Modal from "../modal/Modal";
 
 const Left = () => {
 
+    alert(22);
+
     // CONSUME THE CONTEXT
    
     const {handleTheme,iconTheme,imgFile,handleFileInput,localInfo,handleChangeFill,handleAddBlock} = useContext(MainContext);
