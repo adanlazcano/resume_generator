@@ -1,0 +1,50 @@
+@import '../../../css/vars';
+.help {
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    height: 50px;
+    padding: 0 20px;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(2px);
+    &Icon {
+        font-size: 30px;
+        bottom: 4px;
+        right: 4px;
+        color: #BFBFBF;
+        cursor: help;
+        @media (max-width: 990px) {
+            font-size: 20px;
+        }
+    }
+    &Container {
+        position: absolute;
+        z-index: 3;
+        width: 40%;
+        padding: 20px;
+        background: linear-gradient(315deg, #00CCFF, #D400D4);
+        bottom: 50px;
+        border-top-left-radius: 20px;
+        right: -100%;
+        transition: 0.4s ease-in-out;
+        color: #FFF;
+        &.active {
+            right: 0;
+        }
+        h4 {
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        h5 {
+            font-weight: 500;
+        }
+        @media (max-width:990px) {
+            width: 100%;
+            border-top-left-radius: 0px;
+        }
+    }
+}

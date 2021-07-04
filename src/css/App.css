@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --clr-bg: #FCFCFC;
+  --clr-left: #F0EFEF;
+  --clr-right: #FAFAFA;
+  --clr-border: transparent;
+  --clr-bx-shadow: 1px -1px 4px #00000017;
+  --text-color: #403A3A;
+  --title-color: #0B0A0A;
+  --text-color-light: #707070;
+  --text-color-help: #F2F2F2;
+  --widthApp: calc(100% - 3rem);
+  --maxwidthApp: 968px;
+  --paddingApp: 2rem 0 4rem 0;
+}
+
+body.dark {
+  --clr-bg: #2B2B2B;
+  --clr-left: #181616;
+  --clr-right: #212121;
+  --clr-border: rgba(0, 0, 0, 0.08);
+  --clr-bx-shadow: none;
+  --text-color: #BFBFBF;
+  --title-color: #F2F2F2;
+  --text-color-help: #403A43;
+}
+
+body.print {
+  --widthApp: 100%;
+  --maxwidthApp: 100%;
+  --paddingApp: 0;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+ul {
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--text-color);
+}
+
+.App {
+  max-width: var(--maxwidthApp);
+  position: relative;
+  width: var(--widthApp);
+  padding: var(--paddingApp);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33.5% 66.5%;
+      grid-template-columns: 33.5% 66.5%;
+  font-size: calc(10px + 2vmin);
+  margin: 0 auto;
+  color: #FFF;
+}
+
+@media (max-width: 990px) {
+  .App {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+  }
+  body.print .App {
+    -ms-grid-columns: 33.5% 66.5%;
+        grid-template-columns: 33.5% 66.5%;
+  }
+}
+/*# sourceMappingURL=App.css.map */

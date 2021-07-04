@@ -1,0 +1,82 @@
+@import '../../../css/vars';
+.modal {
+    position: absolute;
+    padding: 8px 4px;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    background-color: rgb(30, 144, 255);
+    &::after {
+        content: '';
+        position: absolute;
+        top: -7px;
+        left: 3.3px;
+        width: 18px;
+        height: 18px;
+        background-color: #1E90FF;
+        transform: rotate(45deg);
+        border-radius: 2px;
+    }
+    &Header {
+        display: flex;
+        justify-content: flex-end;
+        i {
+            color: #FFF;
+            cursor: pointer;
+        }
+    }
+    &Content {
+        display: flex;
+        padding: 15px 10px;
+        flex-direction: column;
+        margin-top: 10px
+    }
+    &Select {
+        border: 1px solid #FFF;
+        color: #FFF;
+        outline: none;
+        background-color: transparent;
+        padding: 4px;
+        font-family: inherit;
+        border-radius: 4px;
+        option {
+            color: #0B0A0A;
+        }
+    }
+    &Input {
+        margin: 15px 0 25px 0;
+        padding: 4px 12px;
+        outline: none;
+        background-color: transparent;
+        border-radius: 4px;
+        border: 1px solid #FFF;
+        font-family: inherit;
+        color: #FFF;
+        letter-spacing: 1px;
+        &::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+    }
+    &Button {
+        background-color: rgba(255, 255, 255, 1);
+        color: #0B0A0A;
+        text-transform: uppercase;
+        font-family: inherit;
+        outline: none;
+        font-weight: 500;
+        padding: 6px;
+        border: none;
+        cursor: pointer;
+        transition: 0.2s;
+        letter-spacing: 1px;
+        border-radius: 20px;
+        &:hover {
+            filter: brightness(130%);
+        }
+    }
+    body.print & {
+        display: none;
+    }
+}

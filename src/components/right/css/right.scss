@@ -1,0 +1,157 @@
+@import '../../../css/vars';
+.right {
+    background-color: var(--clr-right);
+    border: 1px solid var(--clr-border);
+    box-shadow: var(--clr-bx-shadow);
+    transition: 0.5s;
+    padding: 20px;
+    &TitleExpContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+    &TitleExp {
+        letter-spacing: 2px;
+        color: var(--title-color);
+        font-size: 18px;
+    }
+    &IconPlus {
+        color: var(--text-color);
+        cursor: pointer;
+        &:hover {
+            color: var(--title-color);
+        }
+        body.print & {
+            display: none;
+        }
+    }
+    &IconTrash {
+        color: var(--text-color);
+        cursor: pointer;
+        font-size: 18px;
+        &:hover {
+            color: var(--title-color);
+        }
+        body.print & {
+            display: none;
+        }
+        @media (max-width:990px) {
+            font-size: 14px;
+        }
+    }
+    &ContainerExp {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &Content {
+            width: 96%;
+            @media (max-width: 990px) {
+                width: 88%;
+            }
+            body.print & {
+                width: 100%;
+            }
+        }
+        &Charge {
+            color: var(--title-color);
+            font-weight: 500;
+            font-size: 16px;
+        }
+        &Place {
+            color: var(--text-color);
+            font-size: 14px;
+            font-weight: 400;
+        }
+        &Fun {
+            margin-top: 15px;
+            font-size: 14px;
+            font-weight: 300;
+            color: var(--text-color);
+        }
+    }
+    &TitleContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 45px 0 25px 0;
+    }
+    &Title {
+        letter-spacing: 2px;
+        color: var(--title-color);
+        font-size: 18px;
+    }
+    &ContainerCourses {
+        display: grid;
+        grid-template-columns: 47% 47%;
+        margin: 35px 0 50px 0;
+        grid-gap: 33px;
+        @media (max-width: 990px) {
+            grid-template-columns: 100%;
+        }
+        body.print & {
+            grid-template-columns: 47% 47%;
+            font-size: 16px;
+        }
+    }
+    &ContentCourses {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    &ContentCourse {
+        width: 79%;
+        margin-left: 6px;
+        font-size: 13px;
+        color: var(--text-color);
+        font-weight: 300;
+        @media (max-width: 990px) {
+            width: 88%;
+        }
+        body.print & {
+            width: 86%;
+        }
+    }
+    &LanguagesContainer {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+        grid-gap: 10px;
+    }
+    &LanguagesContent {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 6px 0;
+    }
+    &Language {
+        color: var(--text-color);
+        font-weight: 400;
+        margin: 0 10px 0 4px;
+        font-size: 14px;
+        width: 70%;
+        body.print & {
+            width: 85%;
+        }
+    }
+    &InterestContainer {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+        @media(max-width: 990px) {
+            grid-template-columns: repeat(auto-fill, minmax(4rem, 1fr));
+        }
+    }
+    &InterestContent {
+        padding: 8px 0 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &Interest {
+        font-weight: 500;
+        font-size: 14px;
+        color: var(--text-color);
+    }
+}
