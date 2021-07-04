@@ -1,10 +1,10 @@
-## Generador de Curriculums s.a de c.v.
+## Generador de Curriculums
 
 Puedes generar tu curriculum a partir de una plantilla dinámica que puedes editar en cualquier momento que lo desees y tu información se almacenara de forma local en tu navegador y la puedes consultar en cualquier momento.
 
 La página te permite subir tu fotografía, datos personales , 1 o más Redes Sociales, Habilidades, Experiencia, Cursos, Idiomas e Intereses.
 
-Al finalizar de llenar tu información podras descargar la plantilla en formato PDF.
+Al finalizar de llenar tu información podrás descargar la plantilla en formato PDF.
 
 [Visita la página](https://resumegenerator.netlify.app)
 
