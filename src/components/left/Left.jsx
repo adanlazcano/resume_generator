@@ -9,7 +9,7 @@ import Modal from "../modal/Modal";
 
 const Left = () => {
 
-    alert(22);
+
 
     // CONSUME THE CONTEXT
    
