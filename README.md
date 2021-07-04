@@ -18,6 +18,6 @@ The page allows you to upload your photography, personal data, 1 or more Social 
 At the end of filling in your information you will be able to download the template in PDF format.
 
 [Visit the page](https://resumegenerator.netlify.app)
-)
+
 
 
