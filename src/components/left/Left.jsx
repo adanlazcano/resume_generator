@@ -4,7 +4,7 @@ import './css/left.css'
 import Social from "./social/Social";
 import Education from "./education/Education";
 import Skill from "./skill/Skill";
-import html2pdf from 'html2pdf.js';
+import html2pdf from '@types/html2pdf.js';
 import Modal from "../modal/Modal";
 
 const Left = () => {
