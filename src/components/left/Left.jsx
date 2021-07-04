@@ -25,7 +25,7 @@ const Left = () => {
     margin: 0.2,
     filename: 'micurri.pdf',
     image: { type: 'jpeg', quality: 0.98 },
-    html2canvas: { scale: 2 },
+    html2canvas: { scale: 3, letterRendering:true },
     jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
 };
 
