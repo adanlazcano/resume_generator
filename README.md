@@ -1,4 +1,4 @@
-## Generador de Curriculums
+## Generador de Currículums
 
 Puedes generar tu curriculum a partir de una plantilla dinámica que puedes editar en cualquier momento que lo desees y tu información se almacenara de forma local en tu navegador y la puedes consultar en cualquier momento.
 
@@ -6,7 +6,7 @@ La página te permite subir tu fotografía, datos personales , 1 o más Redes So
 
 Al finalizar de llenar tu información podrás descargar la plantilla en formato PDF.
 
-[Visita la página](https://currigenerator.netlify.app)
+[Visita la página](https://currigene.netlify.app)
 
 
 ## Resume Generator
@@ -17,7 +17,7 @@ The page allows you to upload your photography, personal data, 1 or more Social 
 
 At the end of filling in your information you will be able to download the template in PDF format.
 
-[Visit the page](https://currigenerator.netlify.app)
+[Visit the page](https://currigene.netlify.app)
 
 
 
