@@ -1,6 +1,6 @@
 ## Generador de Currículums
 
-Puedes generar tu curriculum a partir de una plantilla dinámica que puedes editar en cualquier momento que lo desees y tu información se almacenara de forma local en tu navegador y la puedes consultar en cualquier momento.
+Puedes generar tu curriculum a partir de una plantilla dinámica que puedes editar en cualquier momento que lo desees y tu información se almacenará de forma local en tu navegador y la puedes consultar en cualquier momento.
 
 La página te permite subir tu fotografía, datos personales , 1 o más Redes Sociales, Habilidades, Experiencia, Cursos, Idiomas e Intereses.
 
